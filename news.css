@@ -1,0 +1,96 @@
+#fh5co-blog .fh5co-post-news {
+    background: #fff;
+    float: left;
+    width: 100%;
+    max-width: 280px;
+    height: 360px;
+    -webkit-box-shadow: -1px 0px 16px -1px rgba(148,148,148,1);
+    -moz-box-shadow: -1px 0px 16px -1px rgba(148,148,148,1);
+    box-shadow: -1px 0px 16px -1px rgba(148,148,148,1);
+    position: relative;
+    bottom: 0;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    margin-bottom: 30px;
+}
+
+#fh5co-blog .fh5co-post-news .fh5co-textbox {
+    margin-bottom: 30px;
+    padding:15px;
+    position: relative;
+    bottom: 0;
+}
+#fh5co-blog .fh5co-post-news h4 {
+    margin-bottom: 20px;
+}
+
+#fh5co-blog .fh5co-post-news p.author {
+    color: #b3b3b3;
+}
+
+
+#fh5co-blog .fh5co-post-news p:last-child {
+    margin-bottom: 0;
+}
+#fh5co-blog .fh5co-post-news:hover, #fh5co-blog .fh5co-post-news:focus {
+    bottom: 2px;
+}
+
+.date-box-n {
+    background-color: #fff;
+    width: 150px;
+    height:30px;
+    margin-left:100px;
+    border: 1px solid white;
+    border-radius:18px 18px 18px 18px ;
+    -webkit-box-shadow:  0px 0px 8px rgba(0, 0, 0, 0.16);
+    -moz-box-shadow:  0px 0px 8px rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.16);
+    margin-bottom:13px;
+
+
+}
+.btn-news{
+    background: #00BBDE;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    height:40px;
+    width:180px;
+    border: 1px solid #00BBDE;
+    text-transform: uppercase;
+    -webkit-border-radius:  20px 20px 20px 20px ;
+    -moz-border-radius:  20px 20px 20px 20px ;
+    border-radius: 20px 20px 20px 20px ;
+
+}
+.button1 {
+    background-color: white;
+    color: #00BBDE;
+
+}
+
+.button1:hover {
+    background-color: #00BBDE;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    #fh5co-blog .fh5co-post-news {
+        width:260px;
+    }
+}
+
+#fh5co-blog .fh5co-post-news .btn:hover
+{
+    background:deepskyblue !important;
+    -webkit-box-shadow: 0px 10px 24px #00BBDE !important;
+    -moz-box-shadow: 0px 10px 24px #00BBDE !important;
+    box-shadow:  0px 10px 24px #00BBDE !important;
+}

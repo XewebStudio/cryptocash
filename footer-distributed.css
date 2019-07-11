@@ -1,0 +1,70 @@
+.footer-distributed{
+	background-color: #324447;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	height:90px;
+	text-align: left;
+	font: normal 16px sans-serif;
+}
+.footer-distributed .footer-left{max-height:46px;height:100%;}
+.footer-distributed .footer-left  p{
+	color:  white;
+		margin-left: 18px;
+	display: inline-block;
+
+
+}
+.footer-distributed .footer-right  a{
+	color:  white;
+
+}.footer-distributed .footer-right  a:hover{
+	 color:  white;
+	 text-decoration: underline;
+ }
+.footer-distributed .footer-left  a{
+	color:  white;
+
+}.footer-distributed .footer-left  a:hover{
+	 color:  white;
+	 text-decoration: underline;
+ }
+.footer-distributed .row-t{margin-left:375px;margin-right:375px;}
+
+.footer-distributed .footer-right{
+	float: right;
+}
+
+.footer-distributed .footer-right p{
+	display: inline-block;
+	font-size: 16px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 30px;
+	margin-left: 5px;
+
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media screen and (max-width: 768px) {
+	.footer-distributed{max-height:240px;height:100%;}
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-right{
+		text-align: center;
+	}
+
+	.footer-distributed .footer-right{
+		float: none;
+	}
+	.footer-distributed .row-t{margin-left:10px;margin-right:10px;margin-top:21px;margin-bottom:30px;}
+
+	.footer-distributed .footer-left p.footer-links{
+		line-height: 1.8;
+	}
+	.footer-distributed .footer-right p{
+
+		margin-top:0;
+		margin-bottom: 0;
+	}
+}
